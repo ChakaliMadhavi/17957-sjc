@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Basics</title>
+</head>
+<body>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: rgb(167, 245, 83);
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        .flex-container>div {
+            background-color: rgb(175, 138, 133);
+            margin: 30px;
+            padding: 15px;
+            font-size: 30px;
+            width: 250px;
+        }
+    </style>
+    <h1>The supremecy of red colour</h1>
+    <div class="flex-container">
+        <div><img src="https://i.pinimg.com/236x/9e/81/85/9e8185945b8b2878f07c00e08eedadac.jpg"></div>
+        <div><img src="https://i.pinimg.com/236x/c2/4a/11/c24a1184adbeea02a635a540ff38efef.jpg"></div>
+        <div><img src="https://i.pinimg.com/236x/0e/a3/c5/0ea3c5cd61746a14de8b7fb5019d3cd9.jpg"></div>
+        <div><img src="https://i.pinimg.com/236x/5c/df/98/5cdf9820653ef8521a0b95fc091bf638.jpg"></div>
+        <div><img src="https://i.pinimg.com/736x/74/0e/f6/740ef673ca7daeb4ac066f6218cb9bff.jpg"></div>
+        <div><img src="https://i.pinimg.com/736x/bf/38/2a/bf382a2b9417d0ec8a0c83a452bb96db.jpg"></div>
+        <div><img src="https://i.pinimg.com/236x/8f/25/56/8f2556b425b4fffb7cac2e531398df8e.jpg"></div>
+        <div><img src="https://i.pinimg.com/236x/82/f2/2c/82f22cc22aa5e2007a97b144fd01d0ed.jpg"></div>
+    </div>
+</body>
+</html>
